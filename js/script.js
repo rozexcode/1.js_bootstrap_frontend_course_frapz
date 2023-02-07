@@ -17,6 +17,7 @@ const goToSection = function(section) {
 
 // navMenu.addEventListener('click', function(e) {
 //   console.log(e.target.dataset.value)
+//test
 
 //   goToSection()
 // })
