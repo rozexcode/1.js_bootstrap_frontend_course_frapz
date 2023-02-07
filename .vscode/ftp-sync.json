@@ -1,0 +1,27 @@
+{
+    "remotePath": "./patryk_rozpedek",
+    "host": "s31.mydevil.net",
+    "username": "f1080_sosnowiec",
+    "password": "Sosnowiec1234#*",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
