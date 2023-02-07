@@ -9,21 +9,27 @@ html {
     scroll-behavior: smooth;
 }
 
-all {}
+
 
 .nav__menu ul { 
     padding: 1.5vh 0 1.5vh 0;
     text-align: center;   
     background-color: rgb(127, 2, 2);
     margin: 0;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
 }
 
 .nav__menu li {
     display: inline-block;
     padding: 3px 30px;
     border: 1px solid red;
+    cursor: pointer;
 }
 
 .nav__menu li a {
@@ -85,4 +91,9 @@ footer {
     font-size: 1.25rem;
     transition: all 0.3s ease-in;
     transform: rotate(-180deg);
+}
+
+.logo {
+    height: 20vh;
+    background-color: blue;
 }
